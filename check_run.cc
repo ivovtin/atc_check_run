@@ -175,9 +175,9 @@ int main(int argc, char* argv[])
 	    std::vector< int > ch_number;
 	    std::vector< float > voltage_ref;
 
-	    //const string F_CNT_VOLTAGE = "/home/atc/SettingHV/cnt_voltage_field-6_0kHs.dat";
-	    const string F_CNT_VOLTAGE = "/home/ovtin/development/check_run/cnt_voltage_field-6_0kHs.dat";
-	    //const string F_CNT_VOLTAGE = "/home/ovtin/development/check_run/cnt_voltage_field-6_0kHs_2015_2016.dat";
+	    const string F_CNT_VOLTAGE = "/home/atc/SettingHV/cnt_voltage_field-6_0kHs.dat";
+	    //const string F_CNT_VOLTAGE = "/home/ovtin/development/atc_check_run/cnt_voltage_field-6_0kHs.dat";
+	    //const string F_CNT_VOLTAGE = "/home/ovtin/development/atc_check_run/cnt_voltage_field-6_0kHs_2015_2016.dat";
 	    string nf_cnt_volt  = F_CNT_VOLTAGE;
 
 	    std::ifstream f_in(nf_cnt_volt.c_str());
